@@ -6,7 +6,7 @@
 uv init
 uv venv
 source .venv/bin/activate
-uv pip install yfinance argsparse
+uv pip install yfinance pandas
 ```
 
 ## Activate
