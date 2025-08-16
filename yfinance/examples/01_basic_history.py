@@ -1,5 +1,6 @@
 import yfinance as yf
 import argparse
+from src.data import fetch_history
 
 def main():
     parser = argparse.ArgumentParser(description="Fetch historical stock data")
@@ -14,6 +15,8 @@ def main():
 
     print(data)
     print("Latest Close Price:", data["Close"].iloc[-1])
+
+    fetch_history(ticker_symbol, period=args.period)
 
 
 if __name__ == "__main__":
