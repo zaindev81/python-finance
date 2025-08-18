@@ -6,7 +6,8 @@
 uv init
 uv venv
 source .venv/bin/activate
-uv pip install yfinance pandas ib-insync
+uv pip install yfinance pandas
+uv pip install ib-insync
 ```
 
 ## Activate
