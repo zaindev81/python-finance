@@ -38,4 +38,6 @@ uv run python examples/01_basic_history.py --ticker ^IXIC --period 3mo
 # 2
 uv run python examples/02_multiple_history.py --tickers AAPL MSFT TSLA --period 3mo
 
+# 3.
+uv run python examples/03_specify_date_range.py
 ```

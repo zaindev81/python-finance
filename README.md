@@ -1,1 +1,4 @@
 # python-finance
+
+- yfinance
+- backtrader
